@@ -1,0 +1,20 @@
+
+server:
+  port: 61000
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    serviceUrl:
+      defaultZone: http://localhost:${server.port}/eureka/
+spring:
+  application:
+    name: eureka-server
+#  freemarker:
+#    template-loader-path: classpath:/templates/
+#    prefer-file-system-access: false
+#  security:
+#    user:
+#      name: shisui
+#      password: shisui
+#      http://localhost:${server.port}/eureka/

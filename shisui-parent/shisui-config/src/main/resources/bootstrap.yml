@@ -1,0 +1,26 @@
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:61000/eureka/
+  instance:
+    instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
+    prefer-ip-address: true
+
+server:
+  port: 61001
+spring:
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: \suyan\work\ideafile\app\shisui-server-config
+  profiles:
+    active: native
+  #    config:
+#      server:
+#        git:
+#          uri:
+#          search-paths: helloworldConfig
+  application:
+    name: config-server
