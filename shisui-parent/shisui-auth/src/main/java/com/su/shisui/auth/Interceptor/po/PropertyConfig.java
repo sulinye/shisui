@@ -19,29 +19,4 @@ public class PropertyConfig {
 
     private List<String> userInfoIgnoreUrl;
 
-    private List<String> colorOs;
-
-    public List<String> getIgnoreUrl() {
-        return ignoreUrl;
-    }
-
-    public void setIgnoreUrl(List<String> ignoreUrl) {
-        this.ignoreUrl = ignoreUrl;
-    }
-
-    public List<String> getUserInfoIgnoreUrl() {
-        return userInfoIgnoreUrl;
-    }
-
-    public void setUserInfoIgnoreUrl(List<String> userInfoIgnoreUrl) {
-        this.userInfoIgnoreUrl = userInfoIgnoreUrl;
-    }
-
-    public List<String> getColorOs() {
-        return colorOs;
-    }
-
-    public void setColorOs(List<String> colorOs) {
-        this.colorOs = colorOs;
-    }
 }

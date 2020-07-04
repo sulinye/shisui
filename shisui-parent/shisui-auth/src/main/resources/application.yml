@@ -17,5 +17,4 @@ shisui:
     - /V1/auth/getImageData
   userInfoIgnoreUrl:
     /V1/auth/getImageData
-  color-os: 11
-  test: test
+

@@ -28,12 +28,9 @@ import java.util.Map;
 /**
  * author sly
  */
-@Component(value = "login")
+@Component
 @Slf4j
 public class UserInterceptor implements HandlerInterceptor {
-
-    @Value("shisui.test")
-    String test;
 
     @Autowired
     PropertyConfig propertyConfig;
