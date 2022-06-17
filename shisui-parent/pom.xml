@@ -28,7 +28,7 @@
         <mybatis.boot.version>2.1.0</mybatis.boot.version>
         <rocketmq.version>4.3.0</rocketmq.version>
         <rocketmq.boot.version>2.0.1</rocketmq.boot.version>
-        <fastjson.version>1.2.49</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <swagger.version>2.8.0</swagger.version>
     </properties>
 
